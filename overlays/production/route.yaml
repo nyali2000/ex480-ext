@@ -5,11 +5,10 @@ metadata:
     app: todonodejs
     name: frontend
   name: frontend
-  namespace: mysql
 spec:
-  host: database.apps.ocp4.example.com
-  port: 
-    targetPort: 8080
+  host:  database.apps.ocp4.example.com
+  port:
+    targetPort: 8080 
   to:
     kind: Service
     name: frontend
