@@ -1,4 +1,4 @@
-kind: Kusomization
+kind: Kustomization
 bases:
 - ../../base
 resources:
